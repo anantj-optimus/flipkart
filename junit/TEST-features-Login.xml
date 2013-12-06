@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Navigating through Flipkart website" skipped="0" tests="5" time="36.410083">
+<testcase classname="Navigating through Flipkart website" name="Login on Flipkart usingvalid credentials (outline example : | varunb2110@gmail.com | varunb21 | varunb2110 |)" time="3.932225">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Navigating through Flipkart website" name="Search for item (outline example : | test |)" time="10.307590">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Navigating through Flipkart website" name="Search for item (outline example : | testing |)" time="10.326591">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Navigating through Flipkart website" name="Contact Us" time="10.709612">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Navigating through Flipkart website" name="Hover on a menu item" time="1.134065">
+  <failure message="failed Hover on a menu item" type="failed">
+    <![CDATA[Scenario: Hover on a menu item
+
+Given I navigate to Flipkart
+And I hover cursor on Clothing
+And select the desired category then the user should navigate to that
+
+Message:
+]]>
+    <![CDATA[Cannot perform native interaction: Could not load native events component. (Selenium::WebDriver::Error::InvalidElementStateError)
+[remote server] file:///C:/Users/Varun/AppData/Local/Temp/webdriver-profile20130826-3832-10r86ia/extensions/fxdriver@googlecode.com/components/driver_component.js:8738:in `generateErrorForNativeEvents'
+[remote server] file:///C:/Users/Varun/AppData/Local/Temp/webdriver-profile20130826-3832-10r86ia/extensions/fxdriver@googlecode.com/components/driver_component.js:8771:in `FirefoxDriver.prototype.mouseMove'
+[remote server] file:///C:/Users/Varun/AppData/Local/Temp/webdriver-profile20130826-3832-10r86ia/extensions/fxdriver@googlecode.com/components/command_processor.js:10456:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Varun/AppData/Local/Temp/webdriver-profile20130826-3832-10r86ia/extensions/fxdriver@googlecode.com/components/command_processor.js:386:in `fxdriver.Timer.prototype.setTimeout/<.notify'
+./features/Step Definitions/login.rb:54:in `/^I hover cursor on Clothing$/'
+features\Login.feature:31:in `And I hover cursor on Clothing']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

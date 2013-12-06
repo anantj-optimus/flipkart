@@ -1,0 +1,119 @@
+[
+  {
+    "source": "^I navigate to Flipkart$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:2",
+    "steps": [
+      {
+        "name": "I navigate to Flipkart",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login using \"(.*)\" and \"(.*)\"$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:7",
+    "steps": [
+      {
+        "name": "I login using \"<username>\" and \"<password>\"",
+        "args": [
+          {
+            "offset": 15,
+            "val": "<username>"
+          },
+          {
+            "offset": 32,
+            "val": "<password>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the User should successfully login with ID \"(.*)\"$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:19",
+    "steps": [
+      {
+        "name": "the User should successfully login with ID \"<searchText>\"",
+        "args": [
+          {
+            "offset": 44,
+            "val": "<searchText>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"(.*)\" in search bar then the text should be verified$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:26",
+    "steps": [
+      {
+        "name": "I enter \"<text>\" in search bar then the text should be verified",
+        "args": [
+          {
+            "offset": 9,
+            "val": "<text>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to the contact Us section$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:37",
+    "steps": [
+      {
+        "name": "I navigate to the contact Us section",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select the desired dropdown values then the user should be able to select the desired values$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:44",
+    "steps": [
+      {
+        "name": "select the desired dropdown values then the user should be able to select the desired values",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I hover cursor on Clothing$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:52",
+    "steps": [
+      {
+        "name": "I hover cursor on Clothing",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select the desired category then the user should navigate to that$",
+    "flags": "",
+    "file_colon_line": "features/Step Definitions/login.rb:57",
+    "steps": [
+      {
+        "name": "select the desired category then the user should navigate to that",
+        "args": [
+
+        ]
+      }
+    ]
+  }
+]
